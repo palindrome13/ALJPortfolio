@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(9, 10, 12);
+    color: #D7FFEE
+}
+h1{
+    font-family: Cookie, cursive;
+}
+h2{
+    font-family: Cookie, Courier, monospace font;
+}
+h3 {
+    font-family: Cookie, Courier, monospace font;
+    color:#434343;
+    }
+#hero{
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://photos.smugmug.com/photos/i-7d3wmpG/0/X3/i-7d3wmpG-X3.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative;
+      }
+#aboutme{
+    height: 600px;
+    width: 100%;
+   padding: 10px;
+    background-color: rgb(96, 51, 138);
+}
+#ProjectSection{
+        height: 300px;
+        width: 800px;
+        background-color: rgb(96, 51, 138);
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    /* margin: 20px; */
+    gap: 10px;
+    width: 100%;
+}
+.item{
+  height: 100px;
+  width: 33%;  
+  background-color:#D7FFEE;
+  border:rgb(4, 54, 49) 2px solid;
+  padding:10px; 
+  
+
+}
+.section{
+    background-color:#434343;
+    padding:20px 50px; 
+    margin: 10px; 
+}
